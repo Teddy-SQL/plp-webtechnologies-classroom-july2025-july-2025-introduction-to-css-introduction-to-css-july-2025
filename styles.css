@@ -1,0 +1,63 @@
+/* Reset default browser margins */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 8px;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Card layout */
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 15px;
+  border: 2px solid #0077cc;
+  border-radius: 6px;
+  background-color: #eef6fc;
+  margin: 10px 0;
+  box-sizing: border-box; /* Demonstrating box model */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 8px;
+}
